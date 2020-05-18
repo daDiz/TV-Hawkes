@@ -7,7 +7,7 @@ This repository contains code for the paper:
 TV-Hawkes is an efficient expectation-maximization algorithm coupled with forward backward splitting to estimate the point process with a total-variation regularization that enforces the triggering kernel to be piece-wise constant.
 
 ## generate synthetic data
-run the following script to simulate multiple sequences using Hawkes process with exponential kernel
+run the following script to simulate multiple sequences using Hawkes process with an exponential kernel
 ```
 run_sim_hp.m
 ```
