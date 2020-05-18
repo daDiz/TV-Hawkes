@@ -8,21 +8,21 @@ TV-Hawkes is an efficient expectation-maximization algorithm coupled with forwar
 
 ## generate synthetic data
 run the following script to simulate multiple sequences using Hawkes process with exponential kernel
-'''
+```
         run_sim_hp.m
-'''
+```
 
 
 ## fit model
 fit TV-Hawkes
-'''
+```
         run_tv_hawkes.m
-'''
+```
  
 
 ## plot kernel
 plot true and learned kernel
-'''
+```
         plot_g(model)
-'''
+```
 Note: run this command after you have a model.
